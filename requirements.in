@@ -8,6 +8,8 @@ pillow_heif
 rawpy>=0.23.1
 pyinstaller
 tkinter-tooltip
+Flask
+requests
 
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.6.0+cpu; sys_platform == 'linux'

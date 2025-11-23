@@ -1,0 +1,18 @@
+
+# Git
+.git
+.gitignore
+
+# IDE
+.idea
+
+# Client
+client.py
+
+# Local environment
+stag_env
+
+# Build artifacts
+*.spec
+dist
+build
