@@ -18,8 +18,9 @@ clip @ git+https://github.com/openai/CLIP.git
     # via ram
 fairscale==0.4.4
     # via ram
-filelock==3.20.0
+filelock==3.9.0
     # via
+    #   -r requirements.in
     #   huggingface-hub
     #   torch
     #   transformers
