@@ -24,8 +24,9 @@ filelock==3.9.0
     #   huggingface-hub
     #   torch
     #   transformers
-fsspec==2025.12.0
+fsspec==2023.6.0
     # via
+    #   -r requirements.in
     #   huggingface-hub
     #   torch
 ftfy==6.3.1
