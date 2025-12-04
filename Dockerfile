@@ -7,6 +7,9 @@ WORKDIR /app
 # Copy the dependency files
 COPY requirements.txt /app/
 
+# Install git, which is required for installing dependencies from git
+RUN apt-get update && apt-get install -y --no-install-recommends git
+
 # Install the application dependencies
 RUN pip install -r requirements.txt
 
