@@ -33,3 +33,6 @@ jobs:
         tags: |
           ghcr.io/${{ github.repository }}:latest
           ghcr.io/${{ github.repository }}:${{ github.sha }}
+
+    - name: Run smoke test
+      run: docker run --rm ghcr.io/${{ github.repository }}:latest --help
