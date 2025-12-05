@@ -11,6 +11,7 @@ tkinter-tooltip
 filelock==3.9.0
 fsspec==2023.6.0
 networkx==2.8.8
+numpy==1.26.4
 
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.6.0+cpu; sys_platform == 'linux'

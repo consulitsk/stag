@@ -52,8 +52,9 @@ networkx==2.8.8
     # via
     #   -r requirements.in
     #   torch
-numpy==2.3.5
+numpy==1.26.4
     # via
+    #   -r requirements.in
     #   pycocotools
     #   rawpy
     #   scipy
