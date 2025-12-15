@@ -11,6 +11,7 @@ def main():
         model_input=args.inp,
         model_output=args.out,
         weight_type=QuantType.QInt8,
+        per_channel=True,
     )
     print("Wrote:", args.out)
 
